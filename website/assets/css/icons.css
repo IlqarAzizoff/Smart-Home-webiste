@@ -1,0 +1,5218 @@
+@charset "UTF-8";
+/* Icon font - MFG labs */
+@font-face {
+  font-family: "mfg";
+  src: url("../font/mfglabsiconset-webfont.eot");
+  src: url("../font/mfglabsiconset-webfont.svg#mfg_labs_iconsetregular") format("svg"), url("../font/mfglabsiconset-webfont.eot?#iefix") format("embedded-opentype"), url("../font/mfglabsiconset-webfont.woff") format("woff"), url("../font/mfglabsiconset-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Icon font - Simple Line Icons */
+@font-face {
+  font-family: "sli";
+  src: url("../font/Simple-Line-Icons.eot?v=2.2.2");
+  src: url("../font/Simple-Line-Icons.eot?v=2.2.2#iefix") format("embedded-opentype"), url("../font/Simple-Line-Icons.ttf?v=2.2.2") format("truetype"), url("../font/Simple-Line-Icons.woff2?v=2.2.2") format("woff2"), url("../font/Simple-Line-Icons.woff?v=2.2.2") format("woff"), url("../font/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-cloud {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cloud:before {
+  content: "☁";
+}
+
+.icon-at {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-at:before {
+  content: "@";
+}
+
+.icon-plus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-plus:before {
+  content: "+";
+}
+
+.icon-minus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-minus:before {
+  content: "−";
+}
+
+.icon-arrow_up {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_up:before {
+  content: "↑";
+}
+
+.icon-arrow_down {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_down:before {
+  content: "↓";
+}
+
+.icon-arrow_right {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_right:before {
+  content: "→";
+}
+
+.icon-arrow_left {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_left:before {
+  content: "←";
+}
+
+.icon-chevron_down {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron_down:before {
+  content: "\f004";
+}
+
+.icon-chevron_up {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron_up:before {
+  content: "\f005";
+}
+
+.icon-chevron_right {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron_right:before {
+  content: "\f006";
+}
+
+.icon-chevron_left {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron_left:before {
+  content: "\f007";
+}
+
+.icon-reorder {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-reorder:before {
+  content: "\f008";
+}
+
+.icon-list {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-list:before {
+  content: "\f009";
+}
+
+.icon-reorder_square {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-reorder_square:before {
+  content: "\f00a";
+}
+
+.icon-reorder_square_line {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-reorder_square_line:before {
+  content: "\f00b";
+}
+
+.icon-coverflow {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-coverflow:before {
+  content: "\f00c";
+}
+
+.icon-coverflow_line {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-coverflow_line:before {
+  content: "\f00d";
+}
+
+.icon-pause {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pause:before {
+  content: "\f00e";
+}
+
+.icon-play {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-play:before {
+  content: "\f00f";
+}
+
+.icon-step_forward {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-step_forward:before {
+  content: "\f010";
+}
+
+.icon-step_backward {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-step_backward:before {
+  content: "\f011";
+}
+
+.icon-fast_forward {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-fast_forward:before {
+  content: "\f012";
+}
+
+.icon-fast_backward {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-fast_backward:before {
+  content: "\f013";
+}
+
+.icon-cloud_upload {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cloud_upload:before {
+  content: "\f014";
+}
+
+.icon-cloud_download {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cloud_download:before {
+  content: "\f015";
+}
+
+.icon-data_science {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-data_science:before {
+  content: "\f016";
+}
+
+.icon-data_science_black {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-data_science_black:before {
+  content: "\f017";
+}
+
+.icon-globe {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-globe:before {
+  content: "\f018";
+}
+
+.icon-globe_black {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-globe_black:before {
+  content: "⌂";
+}
+
+.icon-math_ico {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-math_ico:before {
+  content: "\f01a";
+}
+
+.icon-math {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-math:before {
+  content: "\f01b";
+}
+
+.icon-math_black {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-math_black:before {
+  content: "\f01c";
+}
+
+.icon-paperplane_ico {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paperplane_ico:before {
+  content: "\f01d";
+}
+
+.icon-paperplane {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paperplane:before {
+  content: "\f01e";
+}
+
+.icon-paperplane_black {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-paperplane_black:before {
+  content: "\f01f";
+}
+
+.icon-color_balance {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-color_balance:before {
+  content: "\f020";
+}
+
+.icon-star {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-star:before {
+  content: "$";
+}
+
+.icon-star_half {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-star_half:before {
+  content: "\f022";
+}
+
+.icon-star_empty {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-star_empty:before {
+  content: "☆";
+}
+
+.icon-star_half_empty {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-star_half_empty:before {
+  content: "\f024";
+}
+
+.icon-reload {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-reload:before {
+  content: "\f025";
+}
+
+.icon-heart {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-heart:before {
+  content: "♥";
+}
+
+.icon-heart_broken {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-heart_broken:before {
+  content: "\f028";
+}
+
+.icon-hashtag {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-hashtag:before {
+  content: "\f029";
+}
+
+.icon-reply {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-reply:before {
+  content: "\f02a";
+}
+
+.icon-retweet {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-retweet:before {
+  content: "\f02b";
+}
+
+.icon-signin {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-signin:before {
+  content: "\f02c";
+}
+
+.icon-signout {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-signout:before {
+  content: "\f02d";
+}
+
+.icon-download {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-download:before {
+  content: "\f02e";
+}
+
+.icon-upload {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-upload:before {
+  content: "\f02f";
+}
+
+.icon-placepin {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-placepin:before {
+  content: "\f031";
+}
+
+.icon-display_screen {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-display_screen:before {
+  content: "\f032";
+}
+
+.icon-tablet {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-tablet:before {
+  content: "\f033";
+}
+
+.icon-smartphone {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-smartphone:before {
+  content: "\f034";
+}
+
+.icon-connected_object {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-connected_object:before {
+  content: "\f035";
+}
+
+.icon-lock {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-lock:before {
+  content: "\f512";
+}
+
+.icon-unlock {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-unlock:before {
+  content: "\f513";
+}
+
+.icon-camera {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-camera:before {
+  content: "\f4f7";
+}
+
+.icon-isight {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-isight:before {
+  content: "\f039";
+}
+
+.icon-video_camera {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-video_camera:before {
+  content: "\f03a";
+}
+
+.icon-random {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-random:before {
+  content: "\f03b";
+}
+
+.icon-message {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-message:before {
+  content: "\f4ac";
+}
+
+.icon-discussion {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-discussion:before {
+  content: "\f03d";
+}
+
+.icon-calendar {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-calendar:before {
+  content: "\f4c5";
+}
+
+.icon-ringbell {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-ringbell:before {
+  content: "\f03f";
+}
+
+.icon-movie {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-movie:before {
+  content: "\f040";
+}
+
+.icon-mail {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mail:before {
+  content: "✉";
+}
+
+.icon-pen {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pen:before {
+  content: "✏";
+}
+
+.icon-settings {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-settings:before {
+  content: "颁";
+}
+
+.icon-measure {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-measure:before {
+  content: "\f044";
+}
+
+.icon-vector {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-vector:before {
+  content: "\f045";
+}
+
+.icon-vector_pen {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-vector_pen:before {
+  content: "✒";
+}
+
+.icon-mute_on {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mute_on:before {
+  content: "\f047";
+}
+
+.icon-mute_off {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mute_off:before {
+  content: "\f048";
+}
+
+.icon-home {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-home:before {
+  content: "\f019";
+}
+
+.icon-sheet {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sheet:before {
+  content: "\f04a";
+}
+
+.icon-arrow_big_right {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_big_right:before {
+  content: "⇉";
+}
+
+.icon-arrow_big_left {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_big_left:before {
+  content: "⇇";
+}
+
+.icon-arrow_big_down {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_big_down:before {
+  content: "⇊";
+}
+
+.icon-arrow_big_up {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_big_up:before {
+  content: "⇈";
+}
+
+.icon-dribbble_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dribbble_circle:before {
+  content: "\f04f";
+}
+
+.icon-dribbble {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dribbble:before {
+  content: "\f050";
+}
+
+.icon-facebook_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook_circle:before {
+  content: "\f051";
+}
+
+.icon-facebook {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook:before {
+  content: "\f052";
+}
+
+.icon-git_circle_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-git_circle_alt:before {
+  content: "\f053";
+}
+
+.icon-git_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-git_circle:before {
+  content: "\f054";
+}
+
+.icon-git {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-git:before {
+  content: "\f055";
+}
+
+.icon-octopus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-octopus:before {
+  content: "\f056";
+}
+
+.icon-twitter_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter_circle:before {
+  content: "\f057";
+}
+
+.icon-twitter {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-twitter:before {
+  content: "\f058";
+}
+
+.icon-google_plus_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-google_plus_circle:before {
+  content: "\f059";
+}
+
+.icon-google_plus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-google_plus:before {
+  content: "\f05a";
+}
+
+.icon-linked_in_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-linked_in_circle:before {
+  content: "\f05b";
+}
+
+.icon-linked_in {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-linked_in:before {
+  content: "\f05c";
+}
+
+.icon-instagram {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-instagram:before {
+  content: "\f05d";
+}
+
+.icon-instagram_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-instagram_circle:before {
+  content: "\f05e";
+}
+
+.icon-mfg_icon {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mfg_icon:before {
+  content: "\f05f";
+}
+
+.icon-xing {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xing:before {
+  content: "\f532";
+}
+
+.icon-xing_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xing_circle:before {
+  content: "\f533";
+}
+
+.icon-mfg_icon_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-mfg_icon_circle:before {
+  content: "\f060";
+}
+
+.icon-user {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-user:before {
+  content: "\f061";
+}
+
+.icon-user_male {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-user_male:before {
+  content: "\f062";
+}
+
+.icon-user_female {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-user_female:before {
+  content: "\f063";
+}
+
+.icon-users {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-users:before {
+  content: "\f064";
+}
+
+.icon-file_open {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file_open:before {
+  content: "\f4c2";
+}
+
+.icon-file_close {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file_close:before {
+  content: "\f067";
+}
+
+.icon-file_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file_alt:before {
+  content: "\f068";
+}
+
+.icon-file_close_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-file_close_alt:before {
+  content: "\f069";
+}
+
+.icon-attachment {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-attachment:before {
+  content: "\f06a";
+}
+
+.icon-check {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-check:before {
+  content: "✓";
+}
+
+.icon-cross_mark {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cross_mark:before {
+  content: "❌";
+}
+
+.icon-cancel_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-cancel_circle:before {
+  content: "\f06e";
+}
+
+.icon-check_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-check_circle:before {
+  content: "\f06d";
+}
+
+.icon-magnifying {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-magnifying:before {
+  content: "\f50d";
+}
+
+.icon-inbox {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-inbox:before {
+  content: "\f070";
+}
+
+.icon-clock {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-clock:before {
+  content: "⏲";
+}
+
+.icon-stopwatch {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stopwatch:before {
+  content: "⏱";
+}
+
+.icon-hourglass {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-hourglass:before {
+  content: "⌛";
+}
+
+.icon-trophy {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-trophy:before {
+  content: "\f074";
+}
+
+.icon-unlock_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-unlock_alt:before {
+  content: "\f075";
+}
+
+.icon-lock_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-lock_alt:before {
+  content: "\f510";
+}
+
+.icon-arrow_doubled_right {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_doubled_right:before {
+  content: "⇒";
+}
+
+.icon-arrow_doubled_left {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_doubled_left:before {
+  content: "⇐";
+}
+
+.icon-arrow_doubled_down {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_doubled_down:before {
+  content: "⇓";
+}
+
+.icon-arrow_doubled_up {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_doubled_up:before {
+  content: "⇑";
+}
+
+.icon-link {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-link:before {
+  content: "\f07b";
+}
+
+.icon-warning {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-warning:before {
+  content: "❗";
+}
+
+.icon-warning_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-warning_alt:before {
+  content: "❕";
+}
+
+.icon-magnifying_plus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-magnifying_plus:before {
+  content: "\f07e";
+}
+
+.icon-magnifying_minus {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-magnifying_minus:before {
+  content: "\f07f";
+}
+
+.icon-white_question {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-white_question:before {
+  content: "❔";
+}
+
+.icon-black_question {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-black_question:before {
+  content: "❓";
+}
+
+.icon-stop {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-stop:before {
+  content: "\f080";
+}
+
+.icon-share {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-share:before {
+  content: "\f081";
+}
+
+.icon-eye {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-eye:before {
+  content: "\f082";
+}
+
+.icon-trash_can {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-trash_can:before {
+  content: "\f083";
+}
+
+.icon-hard_drive {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-hard_drive:before {
+  content: "\f084";
+}
+
+.icon-information_black {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-information_black:before {
+  content: "\f085";
+}
+
+.icon-information_white {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-information_white:before {
+  content: "\f086";
+}
+
+.icon-printer {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-printer:before {
+  content: "\f087";
+}
+
+.icon-letter {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-letter:before {
+  content: "\f088";
+}
+
+.icon-soundcloud {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-soundcloud:before {
+  content: "\f089";
+}
+
+.icon-soundcloud_circle {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-soundcloud_circle:before {
+  content: "\f08a";
+}
+
+.icon-anchor {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-anchor:before {
+  content: "⚓";
+}
+
+.icon-female_sign {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-female_sign:before {
+  content: "♀";
+}
+
+.icon-male_sign {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-male_sign:before {
+  content: "♂";
+}
+
+.icon-joystick {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-joystick:before {
+  content: "\f514";
+}
+
+.icon-high_voltage {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-high_voltage:before {
+  content: "⚡";
+}
+
+.icon-fire {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-fire:before {
+  content: "\f525";
+}
+
+.icon-newspaper {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-newspaper:before {
+  content: "\f4f0";
+}
+
+.icon-chart {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chart:before {
+  content: "\f526";
+}
+
+.icon-spread {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-spread:before {
+  content: "\f527";
+}
+
+.icon-spinner_1 {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-spinner_1:before {
+  content: "\f528";
+}
+
+.icon-spinner_2 {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-spinner_2:before {
+  content: "\f529";
+}
+
+.icon-chart_alt {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chart_alt:before {
+  content: "\f530";
+}
+
+.icon-label {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-label:before {
+  content: "\f531";
+}
+
+.icon-brush {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-brush:before {
+  content: "\e000";
+}
+
+.icon-refresh {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-refresh:before {
+  content: "\e001";
+}
+
+.icon-node {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node:before {
+  content: "\e002";
+}
+
+.icon-node_2 {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_2:before {
+  content: "\e003";
+}
+
+.icon-node_3 {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_3:before {
+  content: "\e004";
+}
+
+.icon-link_2_nodes {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-link_2_nodes:before {
+  content: "\e005";
+}
+
+.icon-link_3_nodes {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-link_3_nodes:before {
+  content: "\e006";
+}
+
+.icon-link_loop_nodes {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-link_loop_nodes:before {
+  content: "\e007";
+}
+
+.icon-node_size {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_size:before {
+  content: "\e008";
+}
+
+.icon-node_color {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_color:before {
+  content: "\e009";
+}
+
+.icon-layout_directed {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-layout_directed:before {
+  content: "\e010";
+}
+
+.icon-layout_radial {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-layout_radial:before {
+  content: "\e011";
+}
+
+.icon-layout_hierarchical {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-layout_hierarchical:before {
+  content: "\e012";
+}
+
+.icon-node_link_direction {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_direction:before {
+  content: "\e013";
+}
+
+.icon-node_link_short_path {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_short_path:before {
+  content: "\e014";
+}
+
+.icon-node_cluster {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_cluster:before {
+  content: "\e015";
+}
+
+.icon-display_graph {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-display_graph:before {
+  content: "\e016";
+}
+
+.icon-node_link_weight {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_weight:before {
+  content: "\e017";
+}
+
+.icon-more_node_links {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-more_node_links:before {
+  content: "\e018";
+}
+
+.icon-node_shape {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_shape:before {
+  content: "\e00a";
+}
+
+.icon-node_icon {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_icon:before {
+  content: "\e00b";
+}
+
+.icon-node_text {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_text:before {
+  content: "\e00c";
+}
+
+.icon-node_link_text {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_text:before {
+  content: "\e00d";
+}
+
+.icon-node_link_color {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_color:before {
+  content: "\e00e";
+}
+
+.icon-node_link_shape {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-node_link_shape:before {
+  content: "\e00f";
+}
+
+.icon-credit_card {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-credit_card:before {
+  content: "\f4b3";
+}
+
+.icon-disconnect {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-disconnect:before {
+  content: "\f534";
+}
+
+.icon-graph {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-graph:before {
+  content: "\f535";
+}
+
+.icon-new_user {
+  font-family: "mfg";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-new_user:before {
+  content: "\f536";
+}
+
+.icon2x {
+  font-size: 2rem;
+}
+
+.icon3x {
+  font-size: 3rem;
+}
+
+.icon-sli-user {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-user:before {
+  content: "\e005";
+}
+
+.icon-sli-people {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-people:before {
+  content: "\e001";
+}
+
+.icon-sli-user-female {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-user-female:before {
+  content: "\e000";
+}
+
+.icon-sli-user-follow {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-user-follow:before {
+  content: "\e002";
+}
+
+.icon-sli-user-following {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-user-following:before {
+  content: "\e003";
+}
+
+.icon-sli-user-unfollow {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-user-unfollow:before {
+  content: "\e004";
+}
+
+.icon-sli-login {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-login:before {
+  content: "\e066";
+}
+
+.icon-sli-logout {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-logout:before {
+  content: "\e065";
+}
+
+.icon-sli-emotsmile {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-emotsmile:before {
+  content: "\e021";
+}
+
+.icon-sli-phone {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-phone:before {
+  content: "\e600";
+}
+
+.icon-sli-call-end {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-call-end:before {
+  content: "\e048";
+}
+
+.icon-sli-call-in {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-call-in:before {
+  content: "\e047";
+}
+
+.icon-sli-call-out {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-call-out:before {
+  content: "\e046";
+}
+
+.icon-sli-map {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-map:before {
+  content: "\e033";
+}
+
+.icon-sli-location-pin {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-location-pin:before {
+  content: "\e096";
+}
+
+.icon-sli-direction {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-direction:before {
+  content: "\e042";
+}
+
+.icon-sli-directions {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-directions:before {
+  content: "\e041";
+}
+
+.icon-sli-compass {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-compass:before {
+  content: "\e045";
+}
+
+.icon-sli-layers {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-layers:before {
+  content: "\e034";
+}
+
+.icon-sli-menu {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-menu:before {
+  content: "\e601";
+}
+
+.icon-sli-list {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-list:before {
+  content: "\e067";
+}
+
+.icon-sli-options-vertical {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-options-vertical:before {
+  content: "\e602";
+}
+
+.icon-sli-options {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-options:before {
+  content: "\e603";
+}
+
+.icon-sli-arrow-down {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-down:before {
+  content: "\e604";
+}
+
+.icon-sli-arrow-left {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-left:before {
+  content: "\e605";
+}
+
+.icon-sli-arrow-right {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-right:before {
+  content: "\e606";
+}
+
+.icon-sli-arrow-up {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-up:before {
+  content: "\e607";
+}
+
+.icon-sli-arrow-up-circle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-up-circle:before {
+  content: "\e078";
+}
+
+.icon-sli-arrow-left-circle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-left-circle:before {
+  content: "\e07a";
+}
+
+.icon-sli-arrow-right-circle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-right-circle:before {
+  content: "\e079";
+}
+
+.icon-sli-arrow-down-circle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-arrow-down-circle:before {
+  content: "\e07b";
+}
+
+.icon-sli-check {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-check:before {
+  content: "\e080";
+}
+
+.icon-sli-clock {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-clock:before {
+  content: "\e081";
+}
+
+.icon-sli-plus {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-plus:before {
+  content: "\e095";
+}
+
+.icon-sli-minus {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-minus:before {
+  content: "\e615";
+}
+
+.icon-sli-close {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-close:before {
+  content: "\e082";
+}
+
+.icon-sli-organization {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-organization:before {
+  content: "\e616";
+}
+
+.icon-sli-trophy {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-trophy:before {
+  content: "\e006";
+}
+
+.icon-sli-screen-smartphone {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-screen-smartphone:before {
+  content: "\e010";
+}
+
+.icon-sli-screen-desktop {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-screen-desktop:before {
+  content: "\e011";
+}
+
+.icon-sli-plane {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-plane:before {
+  content: "\e012";
+}
+
+.icon-sli-notebook {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-notebook:before {
+  content: "\e013";
+}
+
+.icon-sli-mustache {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-mustache:before {
+  content: "\e014";
+}
+
+.icon-sli-mouse {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-mouse:before {
+  content: "\e015";
+}
+
+.icon-sli-magnet {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-magnet:before {
+  content: "\e016";
+}
+
+.icon-sli-energy {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-energy:before {
+  content: "\e020";
+}
+
+.icon-sli-disc {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-disc:before {
+  content: "\e022";
+}
+
+.icon-sli-cursor {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-cursor:before {
+  content: "\e06e";
+}
+
+.icon-sli-cursor-move {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-cursor-move:before {
+  content: "\e023";
+}
+
+.icon-sli-crop {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-crop:before {
+  content: "\e024";
+}
+
+.icon-sli-chemistry {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-chemistry:before {
+  content: "\e026";
+}
+
+.icon-sli-speedometer {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-speedometer:before {
+  content: "\e007";
+}
+
+.icon-sli-shield {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-shield:before {
+  content: "\e00e";
+}
+
+.icon-sli-screen-tablet {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-screen-tablet:before {
+  content: "\e00f";
+}
+
+.icon-sli-magic-wand {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-magic-wand:before {
+  content: "\e017";
+}
+
+.icon-sli-hourglass {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-hourglass:before {
+  content: "\e018";
+}
+
+.icon-sli-graduation {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-graduation:before {
+  content: "\e019";
+}
+
+.icon-sli-ghost {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-ghost:before {
+  content: "\e01a";
+}
+
+.icon-sli-game-controller {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-game-controller:before {
+  content: "\e01b";
+}
+
+.icon-sli-fire {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-fire:before {
+  content: "\e01c";
+}
+
+.icon-sli-eyeglass {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-eyeglass:before {
+  content: "\e01d";
+}
+
+.icon-sli-envelope-open {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-envelope-open:before {
+  content: "\e01e";
+}
+
+.icon-sli-envelope-letter {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-envelope-letter:before {
+  content: "\e01f";
+}
+
+.icon-sli-bell {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-bell:before {
+  content: "\e027";
+}
+
+.icon-sli-badge {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-badge:before {
+  content: "\e028";
+}
+
+.icon-sli-anchor {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-anchor:before {
+  content: "\e029";
+}
+
+.icon-sli-wallet {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-wallet:before {
+  content: "\e02a";
+}
+
+.icon-sli-vector {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-vector:before {
+  content: "\e02b";
+}
+
+.icon-sli-speech {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-speech:before {
+  content: "\e02c";
+}
+
+.icon-sli-puzzle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-puzzle:before {
+  content: "\e02d";
+}
+
+.icon-sli-printer {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-printer:before {
+  content: "\e02e";
+}
+
+.icon-sli-present {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-present:before {
+  content: "\e02f";
+}
+
+.icon-sli-playlist {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-playlist:before {
+  content: "\e030";
+}
+
+.icon-sli-pin {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-pin:before {
+  content: "\e031";
+}
+
+.icon-sli-picture {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-picture:before {
+  content: "\e032";
+}
+
+.icon-sli-handbag {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-handbag:before {
+  content: "\e035";
+}
+
+.icon-sli-globe-alt {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-globe-alt:before {
+  content: "\e036";
+}
+
+.icon-sli-globe {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-globe:before {
+  content: "\e037";
+}
+
+.icon-sli-folder-alt {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-folder-alt:before {
+  content: "\e039";
+}
+
+.icon-sli-folder {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-folder:before {
+  content: "\e089";
+}
+
+.icon-sli-film {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-film:before {
+  content: "\e03a";
+}
+
+.icon-sli-feed {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-feed:before {
+  content: "\e03b";
+}
+
+.icon-sli-drop {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-drop:before {
+  content: "\e03e";
+}
+
+.icon-sli-drawer {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-drawer:before {
+  content: "\e03f";
+}
+
+.icon-sli-docs {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-docs:before {
+  content: "\e040";
+}
+
+.icon-sli-doc {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-doc:before {
+  content: "\e085";
+}
+
+.icon-sli-diamond {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-diamond:before {
+  content: "\e043";
+}
+
+.icon-sli-cup {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-cup:before {
+  content: "\e044";
+}
+
+.icon-sli-calculator {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-calculator:before {
+  content: "\e049";
+}
+
+.icon-sli-bubbles {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-bubbles:before {
+  content: "\e04a";
+}
+
+.icon-sli-briefcase {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-briefcase:before {
+  content: "\e04b";
+}
+
+.icon-sli-book-open {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-book-open:before {
+  content: "\e04c";
+}
+
+.icon-sli-basket-loaded {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-basket-loaded:before {
+  content: "\e04d";
+}
+
+.icon-sli-basket {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-basket:before {
+  content: "\e04e";
+}
+
+.icon-sli-bag {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-bag:before {
+  content: "\e04f";
+}
+
+.icon-sli-action-undo {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-action-undo:before {
+  content: "\e050";
+}
+
+.icon-sli-action-redo {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-action-redo:before {
+  content: "\e051";
+}
+
+.icon-sli-wrench {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-wrench:before {
+  content: "\e052";
+}
+
+.icon-sli-umbrella {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-umbrella:before {
+  content: "\e053";
+}
+
+.icon-sli-trash {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-trash:before {
+  content: "\e054";
+}
+
+.icon-sli-tag {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-tag:before {
+  content: "\e055";
+}
+
+.icon-sli-support {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-support:before {
+  content: "\e056";
+}
+
+.icon-sli-frame {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-frame:before {
+  content: "\e038";
+}
+
+.icon-sli-size-fullscreen {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-size-fullscreen:before {
+  content: "\e057";
+}
+
+.icon-sli-size-actual {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-size-actual:before {
+  content: "\e058";
+}
+
+.icon-sli-shuffle {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-shuffle:before {
+  content: "\e059";
+}
+
+.icon-sli-share-alt {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-share-alt:before {
+  content: "\e05a";
+}
+
+.icon-sli-share {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-share:before {
+  content: "\e05b";
+}
+
+.icon-sli-rocket {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-rocket:before {
+  content: "\e05c";
+}
+
+.icon-sli-question {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-question:before {
+  content: "\e05d";
+}
+
+.icon-sli-pie-chart {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-pie-chart:before {
+  content: "\e05e";
+}
+
+.icon-sli-pencil {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-pencil:before {
+  content: "\e05f";
+}
+
+.icon-sli-note {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-note:before {
+  content: "\e060";
+}
+
+.icon-sli-loop {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-loop:before {
+  content: "\e064";
+}
+
+.icon-sli-home {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-home:before {
+  content: "\e069";
+}
+
+.icon-sli-grid {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-grid:before {
+  content: "\e06a";
+}
+
+.icon-sli-graph {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-graph:before {
+  content: "\e06b";
+}
+
+.icon-sli-microphone {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-microphone:before {
+  content: "\e063";
+}
+
+.icon-sli-music-tone-alt {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-music-tone-alt:before {
+  content: "\e061";
+}
+
+.icon-sli-music-tone {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-music-tone:before {
+  content: "\e062";
+}
+
+.icon-sli-earphones-alt {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-earphones-alt:before {
+  content: "\e03c";
+}
+
+.icon-sli-earphones {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-earphones:before {
+  content: "\e03d";
+}
+
+.icon-sli-equalizer {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-equalizer:before {
+  content: "\e06c";
+}
+
+.icon-sli-like {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-like:before {
+  content: "\e068";
+}
+
+.icon-sli-dislike {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-dislike:before {
+  content: "\e06d";
+}
+
+.icon-sli-control-start {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-start:before {
+  content: "\e06f";
+}
+
+.icon-sli-control-rewind {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-rewind:before {
+  content: "\e070";
+}
+
+.icon-sli-control-play {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-play:before {
+  content: "\e071";
+}
+
+.icon-sli-control-pause {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-pause:before {
+  content: "\e072";
+}
+
+.icon-sli-control-forward {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-forward:before {
+  content: "\e073";
+}
+
+.icon-sli-control-end {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-control-end:before {
+  content: "\e074";
+}
+
+.icon-sli-volume-1 {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-volume-1:before {
+  content: "\e09f";
+}
+
+.icon-sli-volume-2 {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-volume-2:before {
+  content: "\e0a0";
+}
+
+.icon-sli-volume-off {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-volume-off:before {
+  content: "\e0a1";
+}
+
+.icon-sli-calendar {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-calendar:before {
+  content: "\e075";
+}
+
+.icon-sli-bulb {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-bulb:before {
+  content: "\e076";
+}
+
+.icon-sli-chart {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-chart:before {
+  content: "\e077";
+}
+
+.icon-sli-ban {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-ban:before {
+  content: "\e07c";
+}
+
+.icon-sli-bubble {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-bubble:before {
+  content: "\e07d";
+}
+
+.icon-sli-camrecorder {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-camrecorder:before {
+  content: "\e07e";
+}
+
+.icon-sli-camera {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-camera:before {
+  content: "\e07f";
+}
+
+.icon-sli-cloud-download {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-cloud-download:before {
+  content: "\e083";
+}
+
+.icon-sli-cloud-upload {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-cloud-upload:before {
+  content: "\e084";
+}
+
+.icon-sli-envelope {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-envelope:before {
+  content: "\e086";
+}
+
+.icon-sli-eye {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-eye:before {
+  content: "\e087";
+}
+
+.icon-sli-flag {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-flag:before {
+  content: "\e088";
+}
+
+.icon-sli-heart {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-heart:before {
+  content: "\e08a";
+}
+
+.icon-sli-info {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-info:before {
+  content: "\e08b";
+}
+
+.icon-sli-key {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-key:before {
+  content: "\e08c";
+}
+
+.icon-sli-link {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-link:before {
+  content: "\e08d";
+}
+
+.icon-sli-lock {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-lock:before {
+  content: "\e08e";
+}
+
+.icon-sli-lock-open {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-lock-open:before {
+  content: "\e08f";
+}
+
+.icon-sli-magnifier {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-magnifier:before {
+  content: "\e090";
+}
+
+.icon-sli-magnifier-add {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-magnifier-add:before {
+  content: "\e091";
+}
+
+.icon-sli-magnifier-remove {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-magnifier-remove:before {
+  content: "\e092";
+}
+
+.icon-sli-paper-clip {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-paper-clip:before {
+  content: "\e093";
+}
+
+.icon-sli-paper-plane {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-paper-plane:before {
+  content: "\e094";
+}
+
+.icon-sli-power {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-power:before {
+  content: "\e097";
+}
+
+.icon-sli-refresh {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-refresh:before {
+  content: "\e098";
+}
+
+.icon-sli-reload {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-reload:before {
+  content: "\e099";
+}
+
+.icon-sli-settings {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-settings:before {
+  content: "\e09a";
+}
+
+.icon-sli-star {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-star:before {
+  content: "\e09b";
+}
+
+.icon-sli-symbol-female {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-symbol-female:before {
+  content: "\e09c";
+}
+
+.icon-sli-symbol-male {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-symbol-male:before {
+  content: "\e09d";
+}
+
+.icon-sli-target {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-target:before {
+  content: "\e09e";
+}
+
+.icon-sli-credit-card {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-credit-card:before {
+  content: "\e025";
+}
+
+.icon-sli-paypal {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-paypal:before {
+  content: "\e608";
+}
+
+.icon-sli-social-tumblr {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-tumblr:before {
+  content: "\e00a";
+}
+
+.icon-sli-social-twitter {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-twitter:before {
+  content: "\e009";
+}
+
+.icon-sli-social-facebook {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-facebook:before {
+  content: "\e00b";
+}
+
+.icon-sli-social-instagram {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-instagram:before {
+  content: "\e609";
+}
+
+.icon-sli-social-linkedin {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-linkedin:before {
+  content: "\e60a";
+}
+
+.icon-sli-social-pinterest {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-pinterest:before {
+  content: "\e60b";
+}
+
+.icon-sli-social-github {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-github:before {
+  content: "\e60c";
+}
+
+.icon-sli-social-google {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-google:before {
+  content: "\e60d";
+}
+
+.icon-sli-social-reddit {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-reddit:before {
+  content: "\e60e";
+}
+
+.icon-sli-social-skype {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-skype:before {
+  content: "\e60f";
+}
+
+.icon-sli-social-dribbble {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-dribbble:before {
+  content: "\e00d";
+}
+
+.icon-sli-social-behance {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-behance:before {
+  content: "\e610";
+}
+
+.icon-sli-social-foursqare {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-foursqare:before {
+  content: "\e611";
+}
+
+.icon-sli-social-soundcloud {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-soundcloud:before {
+  content: "\e612";
+}
+
+.icon-sli-social-spotify {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-spotify:before {
+  content: "\e613";
+}
+
+.icon-sli-social-stumbleupon {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-stumbleupon:before {
+  content: "\e614";
+}
+
+.icon-sli-social-youtube {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-youtube:before {
+  content: "\e008";
+}
+
+.icon-sli-social-dropbox {
+  font-family: "sli";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #e3e3e3;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-sli-social-dropbox:before {
+  content: "\e00c";
+}/*# sourceMappingURL=icons.css.map */
